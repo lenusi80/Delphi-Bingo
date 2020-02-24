@@ -1,0 +1,173 @@
+ BINGOMANIA
+
+1. Introdução.
+
+1.1. As Cartelas.
+
+	Fuja daquelas cartelas feitas em pepelotes de segunda. Este programa emite
+até  8690 cartelas de bingo em papel ofício tamanho A4 de primeira qualidade nas 
+cores vermelha, azul e verde, se você quiser pode alterar estas cores.Cada cartela
+é composta por 24 números que variam de 1 a 75. Todas ascartelas são exclusivas e 
+numeradas de 1 a 8690 e pode-se emitir qualquer intervalo delas. O sistema não repete
+numeração de cartelas. Existem 8 modelos de cartelas. Nos modelos de 1, 2, ou 3 
+quadros  por folha,é emitido um único número de cartela, repetindo-se duas ou três
+vezes, ou seja, dependendo se a pessoa concorre com os mesmos números para 1, 2 ou 3
+prêmios. No modelo de 4 a 6 linhas por folha, repete-se também a mesma cartela, a 
+diferença e que elas são dispostas uma por linha em vez de um quadro, por uma 
+questão de espaço. Estes tipos de emissão deixam a parte superior da folha para a 
+propaganda do bingo. Nela você coloca o número de prêmios, o que vai ser bingado, 
+em prol de que, preços, etc. Você coloca o que quiser neste espaço. Para isso utilize
+o editor de textos  do próprio sistema, ou um de textos e imagens de sua preferência.
+        A vantagem de usar o do sistema é que você fará apenas uma impressão por 
+folha com texto e cartelas. Usando um editor externo você terá mais recursos, 
+inclusive de imagem, mas terá que imprimir as cartelas e depois o texto.  Dependendo
+da quantidade, você pode mandar também o serviço de arte em uma gráfica, o custo será
+menor. O modelo de 1 a 9 quadros alocáveis, você define quantos quadros vai querer
+na cartela(de 1 a 9) e ainda posiciona estes quadros de acordo com suas necessidades.
+Um único número de cartela pode ser impresso em até 9 quadros por folha, isso
+permite que você tenha até 9 prêmios, mas neste modelo,sua propaganda do bingo teria
+de ser feita usando um editor externo. O editor do sistema é aplicavel aqui, mas o texto
+fica por trás dos quadros. O próximo modelo é o de uma cartela com dezenas alocáveis,
+ele permite que você dimensione e posicione cada uma das dezenas onde quiser. 
+Por exemplo, se você quiser uma cartela gigante, basta aumentar o tamanho de cada 
+dezena e realocá-las na página.
+	O quinto modelo emite 4 cartelas distintas em uma folha ofício tamanho A4.
+São 4 cartelas com numeração distinta. Recorte e distribua. Neste modelo você pode
+também usar o editor do sistema, mas o texto fica ao fundo do quadro. O mesmo 
+acontece com o sexto modelo que emite 12 cartelas por folha, é claro, com um tamanho,
+reduzido(mais econômico). Em todos os modelos o número da cartela é impresso junto 
+(de 1 a 8690).
+
+1.2 Emitindo em meia folha.
+
+        Por uma questão de economia, você pode emitir as cartelas em meia folha da 
+seguinte forma: nos modelo 1,2,3 e 4a6 quadros ou linhas por cartela, a parte 
+superior fica em branco para a emissão de sua propaganda. Você pode utilizar esta 
+parte em branco para emitir outra cartela e emitir sua propaganda no verso da folha.
+Por exemplo, primeiro você emite as cartelas de 1 a 100 sem texto na cartela.
+Depois você recoloca o papel na impressora e manda emitir as carteas de 101 a 200 na
+parte que ficou em branco. Depois emite a propaganda no verso da folha e finalmente
+corta a folha ao meio.
+
+
+1.3  Validação das Cartelas.
+
+       Suponha que num clube você distribua 2.000 cartelas com sua propaganda, 
+chamando os participantes. Mas somente 500 resolvam participar. Validar as cartelas
+é simplesmente cadastrá-las no sistema para concorrer aos sorteios. Informa-se ao 
+computador apenas o número de cada cartala participante. As demais não serão 
+consideradas no sorteio. Para validar uma cartela preencha seu número no campo 
+'Validar' e teclar ENTER. Esta validação pode ser feita também passando-se uma 
+pistola de leitora de código de barras sobre o código de barra impresso nas cartelas
+modelo 1,2 e 3. O botão 'Iniciar validação' zera todas as cartelas já validadas para
+iniciar o processo novamente. Para validar intervalos de cartelas, por exemplo da 1 a
+50, digite os números separados por hífen: 1-50 e de ENTER.  
+       Nos modelos 1, 2 e 3 você pode destacar a parte inferior da folha contendo o 
+número da cartela com nome endereço e fone do participante para anunciar no resultado
+do sorteio e posteriores contatos.
+
+1.4 O Sorteio.
+
+	Você pode realizar o sorteio de duas formas diferentes. A primeira e 
+tradicional é com um globo com as 75 pedras, ir sorteando uma por uma e  registrando
+no computador a pedra sorteada. A segunda forma é realizar o  sorterio eletrônico 
+pelo próprio computador. Ele escolhe aleatoriamente as pedras. Nos dois métodos 
+acima, o computador faz o acompanhamento do sorteio, indicando quantas pedras faltam
+para bater e os números das cartelas prómixas. Estas informações são apresentadas, a
+partir de 5 pedras faltando para bater. Recomenda-se para bingos mais sofisticados,
+que esta tela de sorteio seja apresentada ao público num telão pelo sistema  de
+Data-Show.
+        Ao sortear cada pedra o sistema emite um som, reproduzido do arquivo 
+SomPedra.wav que se encontra na pasta \bingo.Se você quiser pode substiruir este
+som por outro do tipo .wav. Basta sobrepor o arquivo SomPedra.wav.
+	Outra Opção que pode lhe interessar no sorteio é atribuir a cada uma das 75
+pedras uma imagem .jpg que devem ser nomeadas de im01.jpg a im75.jpg e colocadas na 
+pasta \bingo. Ao sortear por exemplo, a pedra 25, a imagem im25.jpg é apresentada na
+tela do sorteio. Temos disponivel no link www.adisioribeiro.com.br/im01a75.exe 75 
+imagens das próprias pedras para serem exibidas em tela cheia. Você pode baixar e 
+instalar junto com o programa.
+
+	Da mesma forma sons podem ser atribuidos às pedras para "cantar" o bingo. Segue
+com o programa o arquivo sp01.wav que diz "Bê um" quando a pedra 1 é sorteada. Se não 
+lhe interessar sons das pedras apague este arquivo. Se lhe interessar, grave seus próprios 
+arquivos de som de sp01.wav a sp75.wav para as pedras de 1 a 75 na pasta \bingo ou baixe 
+e instale os 75 arquivos já prontos de no link www.adisioribeiro.com.br/sompedra.exe.
+
+
+1.5 O Bingo Mania Pro.
+
+O Bingo Mania Pro é uma versão mais profissional do Bingomania. Não contém figuras 
+vinculadas a pedras, nem sons. Pode emitir até 60.000 cartelas e possui 25 pedras por 
+cartela em vez de 24. Sua apuração de cartelas vencedoras é feita por matriz dinâmina,
+o que o torna mais rápido. Também é freeware para 40 cartelas e pode ser baixado pelo link
+
+www.adisioribeiro.com.br/instalabingopro.exe
+
+
+
+2. A instalação do sistema.
+
+        Este programa foi concebido para ser instalado em computadores com sistema 
+operacional Windows, no disco C: diretório \bingo. A instalação é automática ao 
+rodar o InstalaBingo.exe.
+
+3. Dos Custos do Sistema. 
+
+3.1 Custos.	
+ 	Para a emissão de até 40 cartelas, este sistema é gratuito. Para demais 
+opções, consulte a tabela abaixo.
+
+        CARTELAS             Bingo Mania    Bingo Mania Pro
+        de 1 a    40           Grátis           Grátis
+        de 1 a   200         R$  70,00       R$    70,00
+        de 1 a   500         R$  90,00       R$    90,00
+        de 1 a  1000         R$ 120,00       R$   120,00
+        de 1 a  2000         R$ 160,00       R$   160,00
+        de 1 a  4000         R$ 230,00       R$   230,00
+        de 1 a  6000         R$ 290,00       R$   290,00
+        de 1 a  8690         R$ 350,00       R$   350,00
+        de 1 a 15000            -o-          R$   500,00
+        de 1 a 30000            -o-          R$   800,00
+        de 1 a 60000            -o-          R$ 1.200,00
+
+
+3.2 Da Evolução do seu bingo.
+
+        Você pode no decorrer do tempo aumentar o número de cartelas do seu sistema,
+pagando somente a diferença. Por exemplo: se você compra inicialmente para emitir até
+1000 cartelas paga R$ 120,00. Se quiser aumentar para 2000 cartelas, paga somente a 
+diferença de R$ 40,00.
+
+3.3 Como comprar. 
+        Deposite ou transfira para uma das contas abaixo o valor referente a seu 
+número de cartelas:
+
+        Banco do Brasil - Conta:. 24.460-0  Agência: 1605-5. 
+                          Titular: Adisio Anatoli Ribeiro
+
+        Caixa Econômica Federal - Conta 27.019-0 - Operação 013 - Agência: 2558. 
+                                  Titular: Adisio Anatoli Ribeiro
+
+Mande um email para pedidos@adisioribeiro.com.br informando:
+	1 - O banco e o número da agencia de onde fez o depósito.
+     	2 - O valor depositado.
+	3 - O nome do proprietário da cópia a ser enviada.
+	4 - Seu telefone de contato com DDD.
+
+	Tão logo seja confirmado seu depósito, sua cópia de autorização será 
+retornada  em resposta ao mesmo  e-mail que você utilizou para mandar as informações.
+
+4. Contato.
+
+        Para nos contactar, tirar dúvidas ou dar sugestões, envie e-mail para 
+sac@adisioribeiro.com.br, ou  ligue  85-3472.3966 ou 85-8877.0807. Visite tembém nosso
+site www.adisioribeiro.com.br.  Teremos prazer em atendê-lo.
+
+
+
+
+Atenciosamente,
+
+Adisio Anatoli Ribeiro.
+Adisio Ribeiro Informática Ltda.
+Programando e integrando pessoas.
